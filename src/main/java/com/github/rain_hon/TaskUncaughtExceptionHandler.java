@@ -1,6 +1,4 @@
-package com.github.rain_hon.exceptions;
-
-import com.github.rain_hon.TCPClient;
+package com.github.rain_hon;
 
 /**
  * 心跳包读取抛出的异常在这里捕获，触发重连
