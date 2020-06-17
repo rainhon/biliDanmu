@@ -9,7 +9,7 @@ import java.net.Socket;
 
 public class ReceiveDataTask implements Runnable {
 
-    private Socket socket;
+    private final Socket socket;
 
     public ReceiveDataTask(Socket socket) {
         this.socket =socket;
